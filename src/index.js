@@ -1,6 +1,8 @@
+import getSecret from "./getSecret.function.js";
+
 //
 //
 // Export
 //
 
-export default {};
+export { getSecret };
