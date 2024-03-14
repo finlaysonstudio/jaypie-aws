@@ -10,13 +10,22 @@ Jaypie access to AWS resources
 npm install @jaypie/aws
 ```
 
-### Example
-
-TODO: Example should include one trivial and possibly one thorough example of using the library
-
 ## 📖 Reference
 
-TODO: Reference should be a complete list of everything in the package
+```javascript
+import { 
+    getSecret,
+} from '@jaypie/aws';
+```
+
+### getSecret
+
+```javascript
+import { getSecret } from '@jaypie/aws';
+
+const secret = await getSecret("MongoConnectionString37D5BF-XUCja0vKbFwa");
+// secret = "pie";
+```
 
 ## 📝 Changelog
 
