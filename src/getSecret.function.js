@@ -1,4 +1,4 @@
-import { ConfigurationError, log } from "@jaypie/core";
+import { ConfigurationError, JAYPIE, moduleLogger } from "@jaypie/core";
 
 import axios from "axios";
 
@@ -25,6 +25,8 @@ const DEFAULT = {
 //
 
 async function getSecret(name) {
+  const log = moduleLogger.with({ lib: JAYPIE.LIB.AWS });
+
   log.trace.var({ getSecret: name });
 
   if (!process.env.AWS_SESSION_TOKEN) {
