@@ -24,6 +24,13 @@ const DEFAULT = {
 // Main
 //
 
+/**
+ * Fetch secret from AWS parameters and secrets lambda layer extension
+ * @param {string} name AWS secret name to fetch
+ * @returns {Promise<string>} secret value
+ * @throws {ConfigurationError} if no AWS_SESSION_TOKEN available
+ * @throws {ConfigurationError} if no secret name provided
+ */
 async function getSecret(name) {
   const log = moduleLogger.with({ lib: JAYPIE.LIB.AWS });
 
