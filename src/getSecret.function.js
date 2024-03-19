@@ -1,4 +1,4 @@
-import { ConfigurationError, JAYPIE, moduleLogger } from "@jaypie/core";
+import { ConfigurationError, JAYPIE, log } from "@jaypie/core";
 
 import axios from "axios";
 
@@ -32,9 +32,7 @@ const DEFAULT = {
  * @throws {ConfigurationError} if no secret name provided
  */
 async function getSecret(name) {
-  const log = moduleLogger.with({ lib: JAYPIE.LIB.AWS });
-
-  log.trace.var({ getSecret: name });
+  log.lib({ lib: JAYPIE.LIB.AWS }).trace.var({ getSecret: name });
 
   if (!process.env.AWS_SESSION_TOKEN) {
     throw new ConfigurationError("No AWS_SESSION_TOKEN available");
