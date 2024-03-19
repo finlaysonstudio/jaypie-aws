@@ -16,7 +16,7 @@
     "test:spec:index": "vitest run ./src/__tests__/index.spec.js"
   },
   "dependencies": {
-    "@jaypie/core": "^0.3.3",
+    "@jaypie/core": "^0.5.1",
     "axios": "^1.6.7"
   },
   "devDependencies": {
