@@ -13,7 +13,7 @@ npm install @jaypie/aws
 ## 📖 Reference
 
 ```javascript
-import { 
+import {
     getSecret,
 } from '@jaypie/aws';
 ```
@@ -23,8 +23,8 @@ import {
 ```javascript
 import { getSecret } from '@jaypie/aws';
 
-const secret = await getSecret("MongoConnectionString37D5BF-XUCja0vKbFwa");
-// secret = "pie";
+const secret = await getSecret("MongoConnectionStringN0NC3-nSg1bR1sh");
+// secret = "mongodb+srv://username:password@env-project.n0nc3.mongodb.net/app?retryWrites=true&w=majority";
 ```
 
 ## 📝 Changelog
