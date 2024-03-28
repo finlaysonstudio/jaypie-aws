@@ -17,10 +17,11 @@
   },
   "dependencies": {
     "@aws-sdk/client-sqs": "^3.540.0",
-    "@jaypie/core": "^1.0.0",
+    "@jaypie/core": "^1.0.2",
     "axios": "^1.6.8"
   },
   "devDependencies": {
+    "@jaypie/testkit": "^1.0.3",
     "eslint": "^8.57.0",
     "eslint-config-prettier": "^9.1.0",
     "eslint-plugin-import": "^2.29.1",
