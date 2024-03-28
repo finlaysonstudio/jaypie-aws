@@ -16,6 +16,7 @@
     "test:spec:index": "vitest run ./src/__tests__/index.spec.js"
   },
   "dependencies": {
+    "@aws-sdk/client-sqs": "^3.540.0",
     "@jaypie/core": "^1.0.0",
     "axios": "^1.6.8"
   },
