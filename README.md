@@ -6,8 +6,10 @@ Jaypie access to AWS resources
 
 ### Installation
 
+`@jaypie/aws` is an optional package that should be installed alongside the main `jaypie` package.
+
 ```bash
-npm install @jaypie/aws
+npm install jaypie @jaypie/aws
 ```
 
 ## 📖 Reference
