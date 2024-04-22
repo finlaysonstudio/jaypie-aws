@@ -1,6 +1,6 @@
 {
   "name": "@jaypie/aws",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "author": "Finlayson Studio",
   "main": "dist/jaypie-aws.cjs.js",
   "module": "dist/jaypie-aws.esm.js",
