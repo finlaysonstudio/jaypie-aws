@@ -5,7 +5,7 @@
   "exports": {
     ".": {
       "default": {
-        "require": "./dist/jaypie-aws.cjs.js",
+        "require": "./dist/jaypie-aws.cjs",
         "default": "./src/index.js"
       }
     }
